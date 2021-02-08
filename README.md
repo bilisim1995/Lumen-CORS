@@ -31,7 +31,7 @@ $app->middleware([
 ]);
 ```
 
-### Done. Now our http requests will be passed through the cors middleware and the rules will be applied.
+### :partying_face: Done. Now our http requests will be passed through the cors middleware and the rules will be applied. 
 <hr>
 <br><br><br>
 
