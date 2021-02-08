@@ -23,11 +23,10 @@ $app->middleware([
     App\Http\Middleware\CorsMiddleware::class
 ]);
 ```
-<br>
 
 ### Done. Now our http requests will be passed through the cors middleware and the rules will be applied.
-<br>
 <hr>
+<br>
 
 ### Note: If you encounter an error like the following;
 <p float="left">
@@ -43,7 +42,7 @@ Root Folder -> bootstrap-> remove 3 written header codes in app.php file (remove
 <br>
 
 
-####Version
+### Version
 php artisan --version
 ```
 Laravel Framework Lumen (8.2.1) (Laravel Components ^8.0)
