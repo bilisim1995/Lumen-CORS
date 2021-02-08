@@ -22,15 +22,16 @@ $app->middleware([
 ]);
 ```
 
-### Done. Now our http requests will be passed through the cors middleware and the rules will be applied.
+#### Done. Now our http requests will be passed through the cors middleware and the rules will be applied.
 
-### Note: If you encounter an error like the following;
+#### Note: If you encounter an error like the following;
 <p float="left">
 <img src="https://user-images.githubusercontent.com/6796645/107275912-64c6f880-6a63-11eb-9588-0e912f6e7b93.PNG">
 </p>
 
 
 Root Folder -> bootstrap-> remove 3 written header codes in app.php file (remove 9,10,11 line)
+<ins>bootstram->app.php</ins>
 <p float="left">
 <img src="https://user-images.githubusercontent.com/6796645/107276234-c5563580-6a63-11eb-8cba-bc1d5a429f54.jpg" width="400" height="254">
 </p>
