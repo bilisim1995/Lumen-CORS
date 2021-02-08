@@ -7,7 +7,9 @@ Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allo
 An example of a cross-origin request: the front-end JavaScript code served from https://domain-a.com uses XMLHttpRequest to make a request for https://domain-b.com/data.json.
 
 For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts. For example, XMLHttpRequest and the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request resources from the same origin the application was loaded from unless the response from other origins includes the right CORS headers.  More->https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-<br/>
+
+
+
 
 ##How can I resolve the CORS error in the lumen?
 
@@ -22,7 +24,8 @@ $app->middleware([
     App\Http\Middleware\CorsMiddleware::class
 ]);
 ```
-<br/>
+
+
 ### Done. Now our http requests will be passed through the cors middleware and the rules will be applied.
 <br/>
 ### Note: If you encounter an error like the following;
@@ -30,13 +33,17 @@ $app->middleware([
 <img src="https://user-images.githubusercontent.com/6796645/107275912-64c6f880-6a63-11eb-9588-0e912f6e7b93.PNG">
 </p>
 
-<br/>
+
+
+
 Root Folder -> bootstrap-> remove 3 written header codes in app.php file (remove 9,10,11 line)
 <ins>bootstram->app.php</ins>
 <p float="left">
 <img src="https://user-images.githubusercontent.com/6796645/107276234-c5563580-6a63-11eb-8cba-bc1d5a429f54.jpg" width="400" height="254">
 </p>
-<br/>
+
+
+
 
 ####Version
 php artisan --version
