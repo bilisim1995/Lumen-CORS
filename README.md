@@ -20,7 +20,7 @@ For security reasons, browsers restrict cross-origin HTTP requests initiated fro
 ## How can I resolve the CORS error in the lumen :question:
 
 # Step 1:
-Create a new file CorsMiddleware.php inside directory <ins>app\Http\Middleware</ins>
+Create a new file <ins>CorsMiddleware.php</ins> inside directory <ins>app\Http\Middleware</ins>
 
 # Step 2:
 Add the following code to the app.php file in the bootstrap folder in the root directory.
