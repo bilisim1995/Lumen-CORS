@@ -1,7 +1,7 @@
 # Lumen-CORS
 CORS structure I have used in my Laravel / Lumen project
 <br>
-### Version
+### Version :monocle_face:
 php artisan --version
 ```
 Laravel Framework Lumen (8.2.1) (Laravel Components ^8.0)
