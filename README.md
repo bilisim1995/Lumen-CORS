@@ -15,7 +15,7 @@ Create a file named CorsMiddleware.php in the app-> Http-> Middleware directory 
 
 # Step 2:
 Add the following code to the app.php file in the bootstrap folder in the home directory.
-Root Folder -> bootstrap->app.php
+<ins> Root Folder -> bootstrap->app.php </ins>
 ```
 $app->middleware([
     App\Http\Middleware\CorsMiddleware::class
