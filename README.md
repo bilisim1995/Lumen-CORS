@@ -1,6 +1,12 @@
 # Lumen-CORS
 CORS structure I have used in my Laravel / Lumen project
 <br>
+### Version
+php artisan --version
+```
+Laravel Framework Lumen (8.2.1) (Laravel Components ^8.0)
+```
+<br><br>
 
 ## What is CORS
 Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any other origins (domain, scheme, or port) than its own from which a browser should permit loading of resources. CORS also relies on a mechanism by which browsers make a “preflight” request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request.
@@ -40,11 +46,4 @@ Root Folder -> bootstrap-> remove 3 written header codes in app.php file (remove
 <p float="left">
 <img src="https://user-images.githubusercontent.com/6796645/107276234-c5563580-6a63-11eb-8cba-bc1d5a429f54.jpg" width="400" height="254">
 </p>
-<br><br>
-
-
-### Version
-php artisan --version
-```
-Laravel Framework Lumen (8.2.1) (Laravel Components ^8.0)
-```
+<br>
