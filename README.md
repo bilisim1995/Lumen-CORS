@@ -11,20 +11,20 @@ For security reasons, browsers restrict cross-origin HTTP requests initiated fro
 ##How can I resolve the CORS error in the lumen?
 
 # Step 1:
-Create a file named CorsMiddleware.php in the app-> Http-> Middleware directory in the lumen project.
+Create a file named <ins>CorsMiddleware.php</ins> in the <ins>app->Http->Middleware</ins> directory in the lumen project.
 
 # Step 2:
 Add the following code to the app.php file in the bootstrap folder in the home directory.
-<ins> Root Folder -> bootstrap->app.php </ins>
+<ins> Root Folder->bootstrap->app.php </ins>
 ```
 $app->middleware([
     App\Http\Middleware\CorsMiddleware::class
 ]);
 ```
 
-## Done. Now our http requests will be passed through the cors middleware and the rules will be applied.
+### Done. Now our http requests will be passed through the cors middleware and the rules will be applied.
 
-## Note: If you encounter an error like the following;
+### Note: If you encounter an error like the following;
 <p float="left">
 <img src="https://user-images.githubusercontent.com/6796645/107275912-64c6f880-6a63-11eb-9588-0e912f6e7b93.PNG">
 </p>
