@@ -23,9 +23,9 @@ $app->middleware([
 ]);
 ```
 <br/>
-#### Done. Now our http requests will be passed through the cors middleware and the rules will be applied.
+### Done. Now our http requests will be passed through the cors middleware and the rules will be applied.
 <br/>
-#### Note: If you encounter an error like the following;
+### Note: If you encounter an error like the following;
 <p float="left">
 <img src="https://user-images.githubusercontent.com/6796645/107275912-64c6f880-6a63-11eb-9588-0e912f6e7b93.PNG">
 </p>
