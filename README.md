@@ -17,7 +17,7 @@ For security reasons, browsers restrict cross-origin HTTP requests initiated fro
 <br><br><br>
 <hr>
 
-## How can I resolve the CORS error in the lumen?
+## How can I resolve the CORS error in the lumen :question:
 
 # Step 1:
 Create a file named <ins>CorsMiddleware.php</ins> in the <ins>app->Http->Middleware</ins> directory in the lumen project.
@@ -31,11 +31,11 @@ $app->middleware([
 ]);
 ```
 
-### :partying_face: Done. Now our http requests will be passed through the cors middleware and the rules will be applied. 
+### :partying_face: :ok_hand: Done. Now our http requests will be passed through the cors middleware and the rules will be applied. 
 <hr>
 <br><br><br>
 
-### Note: If you encounter an error like the following;
+### :grey_exclamation: Note: If you encounter an error like the following;
 <br>
 <p float="left">
 <img src="https://user-images.githubusercontent.com/6796645/107275912-64c6f880-6a63-11eb-9588-0e912f6e7b93.PNG">
