@@ -7,9 +7,10 @@ Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allo
 An example of a cross-origin request: the front-end JavaScript code served from https://domain-a.com uses XMLHttpRequest to make a request for https://domain-b.com/data.json.
 
 For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts. For example, XMLHttpRequest and the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request resources from the same origin the application was loaded from unless the response from other origins includes the right CORS headers.  More->https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-
 <br>
-##How can I resolve the CORS error in the lumen?
+
+
+## How can I resolve the CORS error in the lumen?
 
 # Step 1:
 Create a file named <ins>CorsMiddleware.php</ins> in the <ins>app->Http->Middleware</ins> directory in the lumen project.
@@ -22,7 +23,7 @@ $app->middleware([
     App\Http\Middleware\CorsMiddleware::class
 ]);
 ```
-
+<br>
 
 ### Done. Now our http requests will be passed through the cors middleware and the rules will be applied.
 <br/>
